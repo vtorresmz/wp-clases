@@ -1,0 +1,10 @@
+// Registrar menu de navegación
+function mi_menu_personalizado()
+{
+
+    $locations = array(
+        'mi-menu' => __('mi-menu', 'mi-menu'),
+    );
+    register_nav_menus($locations);
+}
+add_action('init', 'mi_menu_personalizado');
