@@ -1,0 +1,11 @@
+	<?php
+							wp_nav_menu(
+								array(
+									'theme_location' => 'mi-menu',
+									'menu_id'        => 'id de mi menú',
+									'container_class' => 'aquí pueden ir clases de diagramación como las columnas u otros. ',
+                  'menu_class'	 => 'clases de mi menú',
+									
+								)
+							);
+						
