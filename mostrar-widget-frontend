@@ -1,0 +1,1 @@
+<?php if(is_active_sidebar('ID-de-mi-widget')) : dynamic_sidebar('ID-de-mi-widget'); endif; ?>
