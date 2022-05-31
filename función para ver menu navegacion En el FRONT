@@ -1,0 +1,25 @@
+	<?php //OPCIÓN MENU 1 SIMPLE SIN BOOTSTRAP
+							wp_nav_menu(
+								array(
+									'theme_location' => 'mi-menu',
+									'menu_id'        => 'id de mi menú',
+									'container_class' => 'aquí pueden ir clases de diagramación como las columnas u otros. ',
+                  'menu_class'	 => 'clases de mi menú',
+									
+								)
+							);
+						
+						
+						
+
+
+<?php //OPCIÓN MENU 1 SIMPLE CON BOOTSTRAP
+							wp_nav_menu(
+								array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+									'menu_class'	 => 'navbar-nav color-dark',
+									'container_class' => 'col-12 col-lg-7',
+								)
+							);
+							?>
